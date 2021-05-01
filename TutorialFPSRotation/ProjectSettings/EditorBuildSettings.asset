@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/TutorialFPSRotation/_Scenes/Test1.unity
+    guid: 59b1257f9e52cb84ca3f3786728179a7
   m_configObjects: {}
