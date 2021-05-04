@@ -2,10 +2,10 @@
 
 <p align="center"><img src="https://imgur.com/wwpRdfA.png"></p>
 
-<p align="center"><a href="https://youtu.be/_pXDbUC8cTo" target="_blank"><img src="https://imgur.com/p2XtmNe.png"></a></p>
+<p align="center"><a href="https://youtu.be/hsoJLJ22GVA" target="_blank"><img src="https://imgur.com/p2XtmNe.png"></a></p>
 
 ### Introduction:
-A tutorial on how to get smooth first person rotation in Unity3D. While making a first person view game you will notice mainly in the build game what when you rotate the camera the game stutters/jitters a lot which gets noticable when circuling around an object. In this tutorial I am showing one of a way to fix that. Watch my [Video]() to get a detailed understanding of the issue, the cause of the issue and the solution to the issue. If my solution doesn't work then I have linked to other sources in [Research Links](#research-links) that fixes this issue using other means.
+A tutorial on how to get smooth first person rotation in Unity3D. While making a first person view game you will notice mainly in the build game that when you rotate the camera the game stutters/jitters a lot which gets noticable when circuling around an object. In this tutorial I am showing one of a way to fix that. Watch my [Video](https://youtu.be/hsoJLJ22GVA) to get a detailed understanding of the issue, the cause of the issue and the solution to the issue. If my solution doesn't work then I have linked to other sources in [Research Links](#research-links) that fixes this issue using other means.
 
 ## Table of Contents:
 - [Prerequisites](#prerequisites)
@@ -22,7 +22,7 @@ A tutorial on how to get smooth first person rotation in Unity3D. While making a
 Unity Version used for this tutorial is **2020.3.3f1**.
 ***
 ## Stable Build
-[Stable Build - main](https://github.com/deadlykam/TutorialFPSRotation) is the stable version of the tutorial and is similar to the one shown in the [Video]()
+[Stable Build - main](https://github.com/deadlykam/TutorialFPSRotation) is the stable version of the tutorial and is similar to the one shown in the [Video](https://youtu.be/hsoJLJ22GVA)
 ***
 ## Main Scripts
 The main scripts for solving this issue are [PlayerRotate](https://github.com/deadlykam/TutorialFPSRotation/blob/20c94069f25b51205404a644a49f7b378506668e/TutorialFPSRotation/Assets/TutorialFPSRotation/Scripts/PlayerRotate.cs) and [PlayerRotateSmooth](https://github.com/deadlykam/TutorialFPSRotation/blob/20c94069f25b51205404a644a49f7b378506668e/TutorialFPSRotation/Assets/TutorialFPSRotation/Scripts/PlayerRotateSmooth.cs). Both of these scripts are needed to solve the issue.
