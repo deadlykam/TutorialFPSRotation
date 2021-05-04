@@ -29,13 +29,13 @@ This script rotates the player and camera normally. Using this script will show 
 This script fixes the stuttering issue caused by VSync in the build game. The camera rotates smoothly. Using this script in the editor will make the rotation very very slow. It is adviced to use the [PlayerRotate](https://github.com/deadlykam/TutorialFPSRotation/blob/20c94069f25b51205404a644a49f7b378506668e/TutorialFPSRotation/Assets/TutorialFPSRotation/Scripts/PlayerRotate.cs) script when testing in the editor.
 ***
 ## Research Links
-[(Video) Brackeys - FIRST PERSON MOVEMENT in Unity - FPS Controller](https://www.youtube.com/watch?v=_QajrabyTJc)
-[(Video) SpeedTutor - FREE FPS Character Controller for UNITY 2020!](https://www.youtube.com/watch?v=LeFi2qKIzp4)
-[(Video) Magic Monk - Unity 2018.2 First Person Adventure Game Tutorial 4 - Mouse movement, camera & player rotation](https://www.youtube.com/watch?v=BzBIK4_WSJY)
-[(Video) Ned Makes Games - Setting Up a Smooth Mouse Look Camera Controller Script in Unity ✔️ 2020.3 | Game Dev Tutorial](https://www.youtube.com/watch?v=Coch-PkHY54)
-[(Blog) Nothke's Dev blog - How to Cope with Standard Unity FPS Controller](http://nothkedev.blogspot.com/2017/11/how-to-cope-with-standard-unity-fps.html)
-[(Blog) IronEqual - Unity: CHARACTER CONTROLLER vs RIGIDBODY](https://medium.com/ironequal/unity-character-controller-vs-rigidbody-a1e243591483)
-[(Unity Blog) Tautvydas Žilys - Fixing Time.deltaTime in Unity 2020.2 for smoother gameplay: What did it take?](https://blogs.unity3d.com/2020/10/01/fixing-time-deltatime-in-unity-2020-2-for-smoother-gameplay-what-did-it-take/)
+- [(Video) Brackeys - FIRST PERSON MOVEMENT in Unity - FPS Controller](https://www.youtube.com/watch?v=_QajrabyTJc)
+- [(Video) SpeedTutor - FREE FPS Character Controller for UNITY 2020!](https://www.youtube.com/watch?v=LeFi2qKIzp4)
+- [(Video) Magic Monk - Unity 2018.2 First Person Adventure Game Tutorial 4 - Mouse movement, camera & player rotation](https://www.youtube.com/watch?v=BzBIK4_WSJY)
+- [(Video) Ned Makes Games - Setting Up a Smooth Mouse Look Camera Controller Script in Unity ✔️ 2020.3 | Game Dev Tutorial](https://www.youtube.com/watch?v=Coch-PkHY54)
+- [(Blog) Nothke's Dev blog - How to Cope with Standard Unity FPS Controller](http://nothkedev.blogspot.com/2017/11/how-to-cope-with-standard-unity-fps.html)
+- [(Blog) IronEqual - Unity: CHARACTER CONTROLLER vs RIGIDBODY](https://medium.com/ironequal/unity-character-controller-vs-rigidbody-a1e243591483)
+- [(Unity Blog) Tautvydas Žilys - Fixing Time.deltaTime in Unity 2020.2 for smoother gameplay: What did it take?](https://blogs.unity3d.com/2020/10/01/fixing-time-deltatime-in-unity-2020-2-for-smoother-gameplay-what-did-it-take/)
 ***
 ## Authors
 - Syed Shaiyan Kamran Waliullah 
