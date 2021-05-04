@@ -12,7 +12,7 @@ A tutorial on how to get smooth first person rotation in Unity3D. While making a
 - [Research Links](#research-links)
 - [Authors](#authors)
 - [License](#license)
-
+***
 ## Prerequisites
 #### Unity Game Engine
 Unity Version used for this tutorial is **2020.3.3f1**.
