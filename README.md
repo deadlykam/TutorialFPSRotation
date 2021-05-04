@@ -1,7 +1,7 @@
 # TutorialFPSRotation
 
 ### Introduction:
-A tutorial on how to get smooth first person rotation in Unity3D. While making a first person view game you will notice mainly in the build game what when you rotate the camera the game stutters/jitters a lot which gets noticable when circuling around an object. In this tutorial I am showing one of a way to fix that. Watch my [Video]() to get a detail understanding of the problem and the solution. If my solution doesn't work then I have linked to other sources that fixes this issue using other means.
+A tutorial on how to get smooth first person rotation in Unity3D. While making a first person view game you will notice mainly in the build game what when you rotate the camera the game stutters/jitters a lot which gets noticable when circuling around an object. In this tutorial I am showing one of a way to fix that. Watch my [Video]() to get a detailed understanding of the issue, the cause of the issue and the solution to the issue. If my solution doesn't work then I have linked to other sources in [Research Links](#research-links) that fixes this issue using other means.
 
 ## Table of Contents:
 - [Prerequisites](#prerequisites)
