@@ -32,6 +32,7 @@ This script rotates the player and camera normally. Using this script will show 
 This script fixes the stuttering issue caused by VSync in the build game. The camera rotates smoothly. Using this script in the editor will make the rotation very very slow. It is adviced to use the [PlayerRotate](https://github.com/deadlykam/TutorialFPSRotation/blob/20c94069f25b51205404a644a49f7b378506668e/TutorialFPSRotation/Assets/TutorialFPSRotation/Scripts/PlayerRotate.cs) script when testing in the editor.
 ***
 ## Research Links
+- [(Video) Unite 2016 - Tools, Tricks and Technologies for Reaching Stutter Free 60 FPS in INSIDE](https://www.youtube.com/watch?v=mQ2KTRn4BMI)
 - [(Video) Brackeys - FIRST PERSON MOVEMENT in Unity - FPS Controller](https://www.youtube.com/watch?v=_QajrabyTJc)
 - [(Video) SpeedTutor - FREE FPS Character Controller for UNITY 2020!](https://www.youtube.com/watch?v=LeFi2qKIzp4)
 - [(Video) Magic Monk - Unity 2018.2 First Person Adventure Game Tutorial 4 - Mouse movement, camera & player rotation](https://www.youtube.com/watch?v=BzBIK4_WSJY)
