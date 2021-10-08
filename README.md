@@ -13,6 +13,7 @@ A tutorial on how to get smooth first person rotation in Unity3D. While making a
 - [Main Scripts](#main-scripts)
   - [PlayerRotate](#playerrotate)
   - [PlayerRotateSmooth](#playerrotatesmooth)
+- [Fixes](#fixes)
 - [Research Links](#research-links)
 - [Authors](#authors)
 - [License](#license)
@@ -31,7 +32,7 @@ This script rotates the player and camera normally. Using this script will show 
 #### _[PlayerRotateSmooth](TutorialFPSRotation/Assets/TutorialFPSRotation/Scripts/PlayerRotateSmooth.cs):_
 This script fixes the stuttering issue caused by VSync in the build game. The camera rotates smoothly. Using this script in the editor will make the rotation very very slow. It is adviced to use the [PlayerRotate](TutorialFPSRotation/Assets/TutorialFPSRotation/Scripts/PlayerRotate.cs) script when testing in the editor.
 ***
-## Updates
+## Fixes
 - Removed _Time.deltaTime_ multiplication to the mouse axis in line 23 and 24 in [PlayerRotate](TutorialFPSRotation/Assets/TutorialFPSRotation/Scripts/PlayerRotate.cs) script. Because of this the speed value of PlayerRotate and PlayerRotateSmooth has been changed to 3 in the inspector. This _Time.deltaTime_ multiplication was causing problem to some users. According to Unity's [Input.GetAxis](https://docs.unity3d.com/ScriptReference/Input.GetAxis.html) docs the correct way to rotate mouse axis is to NOT multiply with _Time.deltaTime_ because it is independent of the frame-rate. This is a mistake on my part for not reading the part where it says, _This is frame-rate independent; you do not need to be concerned about varying frame-rates when using this value._. Everything else is working and I hope it helps others.
 ***
 ## Research Links
