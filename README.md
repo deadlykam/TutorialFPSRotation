@@ -26,10 +26,13 @@ Unity Version used for this tutorial is **2020.3.3f1**.
 ***
 ## Main Scripts
 The main scripts for solving this issue are [PlayerRotate](https://github.com/deadlykam/TutorialFPSRotation/blob/20c94069f25b51205404a644a49f7b378506668e/TutorialFPSRotation/Assets/TutorialFPSRotation/Scripts/PlayerRotate.cs) and [PlayerRotateSmooth](https://github.com/deadlykam/TutorialFPSRotation/blob/20c94069f25b51205404a644a49f7b378506668e/TutorialFPSRotation/Assets/TutorialFPSRotation/Scripts/PlayerRotateSmooth.cs). Both of these scripts are needed to solve the issue.
-#### _[PlayerRotate](https://github.com/deadlykam/TutorialFPSRotation/blob/20c94069f25b51205404a644a49f7b378506668e/TutorialFPSRotation/Assets/TutorialFPSRotation/Scripts/PlayerRotate.cs):_
+#### _[PlayerRotate](TutorialFPSRotation/Assets/TutorialFPSRotation/Scripts/PlayerRotate.cs):_
 This script rotates the player and camera normally. Using this script will show the rotation is smooth in the editor but NOT in the build game. From my research the reason is because of VSync which lowers the fps of the game to the monitor refresh rate which in my case was 60fps because my monitor refresh rate is 60Hz.
-#### _[PlayerRotateSmooth](https://github.com/deadlykam/TutorialFPSRotation/blob/20c94069f25b51205404a644a49f7b378506668e/TutorialFPSRotation/Assets/TutorialFPSRotation/Scripts/PlayerRotateSmooth.cs):_
-This script fixes the stuttering issue caused by VSync in the build game. The camera rotates smoothly. Using this script in the editor will make the rotation very very slow. It is adviced to use the [PlayerRotate](https://github.com/deadlykam/TutorialFPSRotation/blob/20c94069f25b51205404a644a49f7b378506668e/TutorialFPSRotation/Assets/TutorialFPSRotation/Scripts/PlayerRotate.cs) script when testing in the editor.
+#### _[PlayerRotateSmooth](TutorialFPSRotation/Assets/TutorialFPSRotation/Scripts/PlayerRotateSmooth.cs):_
+This script fixes the stuttering issue caused by VSync in the build game. The camera rotates smoothly. Using this script in the editor will make the rotation very very slow. It is adviced to use the [PlayerRotate](TutorialFPSRotation/Assets/TutorialFPSRotation/Scripts/PlayerRotate.cs) script when testing in the editor.
+***
+## Updates
+- Removed _Time.deltaTime_ multiplication to the mouse axis in line 23 and 24 in [PlayerRotate](TutorialFPSRotation/Assets/TutorialFPSRotation/Scripts/PlayerRotate.cs) script. Because of this the speed value of PlayerRotate and PlayerRotateSmooth has been changed to 3 in the inspector. This _Time.deltaTime_ multiplication was causing problem to some users. According to Unity's [Input.GetAxis](https://docs.unity3d.com/ScriptReference/Input.GetAxis.html) docs the correct way to rotate mouse axis is to NOT multiply with _Time.deltaTime_ because it is independent of the frame-rate. This is a mistake on my part for not reading the part where it says, _This is frame-rate independent; you do not need to be concerned about varying frame-rates when using this value._. Everything else is working and I hope it helps others.
 ***
 ## Research Links
 - [(Video) Unite 2016 - Tools, Tricks and Technologies for Reaching Stutter Free 60 FPS in INSIDE](https://www.youtube.com/watch?v=mQ2KTRn4BMI)
