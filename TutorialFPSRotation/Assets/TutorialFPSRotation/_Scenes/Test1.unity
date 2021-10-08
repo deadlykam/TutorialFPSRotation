@@ -216,7 +216,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _cameraHolder: {fileID: 1805371565}
-  _speed: 200
+  _speed: 3
   _rotationLimit: 90
 --- !u!114 &595902619
 MonoBehaviour:
@@ -262,7 +262,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _cameraHolder: {fileID: 1805371565}
-  _speed: 200
+  _speed: 3
   _rotationLimit: 90
   _smoothTime: 0.02
   _horiRotHelper: {fileID: 1167709287}

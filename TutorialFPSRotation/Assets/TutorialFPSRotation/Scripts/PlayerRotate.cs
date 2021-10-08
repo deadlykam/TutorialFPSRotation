@@ -20,8 +20,8 @@ public class PlayerRotate : MonoBehaviour
         RotateHorizontal();
     }
 
-    protected float GetVerticalValue() => Input.GetAxis("Mouse Y") * _speed * Time.deltaTime;
-    protected float GetHorizontalValue() => Input.GetAxis("Mouse X") * _speed * Time.deltaTime;
+    protected float GetVerticalValue() => Input.GetAxis("Mouse Y") * _speed;
+    protected float GetHorizontalValue() => Input.GetAxis("Mouse X") * _speed;
     protected virtual void RotateVertical() => _cameraHolder.localRotation = Quaternion.Euler(vertRot, 0f, 0f);
     protected virtual void RotateHorizontal() => transform.Rotate(Vector3.up * GetHorizontalValue());
 }
