@@ -168,6 +168,7 @@ GameObject:
   - component: {fileID: 595902618}
   - component: {fileID: 595902621}
   - component: {fileID: 595902617}
+  - component: {fileID: 595902622}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -231,6 +232,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 10
+  _speedJump: 3
+  _gravity: -19.62
+  _collider: {fileID: 595902622}
 --- !u!143 &595902620
 CharacterController:
   m_ObjectHideFlags: 0
@@ -266,6 +270,23 @@ MonoBehaviour:
   _rotationLimit: 90
   _smoothTime: 0.02
   _horiRotHelper: {fileID: 1167709287}
+--- !u!114 &595902622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 595902615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97aeaee86b7526848b985a4450f7de4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _offset: {x: 0, y: 0, z: 0}
+  _radius: 0.4
+  _detectLayers:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!1 &717569354
 GameObject:
   m_ObjectHideFlags: 0
@@ -692,7 +713,7 @@ GameObject:
   - component: {fileID: 1942567923}
   - component: {fileID: 1942567922}
   - component: {fileID: 1942567921}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
